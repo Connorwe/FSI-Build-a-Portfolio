@@ -1,0 +1,26 @@
+.redbg {
+    background-color: darkred;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: unset;
+}
+h2 {
+    text-align: center;
+    color: rgb(83, 81, 81);
+}
+h3 {
+    color: whitesmoke;
+    font-weight: 400;
+}
+p {
+    color: black;
+    font-weight: 300;
+}
+.blackbg {
+    background-color: rgb(83, 81, 81)
+}
+ul {
+    color: black;
+}
