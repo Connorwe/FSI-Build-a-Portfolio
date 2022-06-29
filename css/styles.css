@@ -1,5 +1,9 @@
-.redbg {
-    background-color: darkred;
+.navbar {
+    background-color: red;
+    height: 5%;
+    text-align: center;
+    padding: .5em
+
 }
 h1 {
     color: black;
@@ -8,7 +12,10 @@ h1 {
 }
 h2 {
     text-align: center;
-    color: rgb(83, 81, 81);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: 'Verdana';  
+    color: darkred
+    
 }
 h3 {
     color: whitesmoke;
@@ -20,7 +27,35 @@ p {
 }
 .blackbg {
     background-color: rgb(83, 81, 81)
+    
 }
-ul {
-    color: black;
-}
+  
+   #one {
+    width: 50%;
+    margin-top: -1%;
+    height: 3px;
+    background-color: black;
+    border-color: black;
+  }
+  ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+ 
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li:hover {
+    background-color: #111;
+  }
